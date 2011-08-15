@@ -1,0 +1,21 @@
+diff -pruN libgnome-2.20.1.orig/schemas/desktop_gnome_interface.schemas.in.in libgnome-2.20.1/schemas/desktop_gnome_interface.schemas.in.in
+--- libgnome-2.20.1.orig/schemas/desktop_gnome_interface.schemas.in.in	2007-12-07 22:37:02.000000000 +0900
++++ libgnome-2.20.1/schemas/desktop_gnome_interface.schemas.in.in	2007-12-07 22:39:53.000000000 +0900
+@@ -192,6 +192,17 @@
+       </locale>
+     </schema>
+     <schema>
++      <key>/schemas/desktop/gnome/interface/gtk-im-module</key>
++      <applyto>/desktop/gnome/interface/gtk-im-module</applyto>
++      <owner>gnome</owner>
++      <type>string</type>
++      <default></default>
++      <locale name="C">
++        <short>GTK IM Module</short>
++        <long>Name of the input method module used by GTK+.</long>
++      </locale>
++    </schema>
++    <schema>
+       <applyto>/desktop/gnome/interface/document_font_name</applyto>
+       <key>/schemas/desktop/gnome/interface/document_font_name</key>
+       <owner>gnome</owner>

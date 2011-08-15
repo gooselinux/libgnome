@@ -1,0 +1,30 @@
+diff -up libgnome-2.19.1/schemas/desktop_gnome_interface.schemas.in.in.default-settings libgnome-2.19.1/schemas/desktop_gnome_interface.schemas.in.in
+--- libgnome-2.19.1/schemas/desktop_gnome_interface.schemas.in.in.default-settings	2006-12-31 10:15:22.000000000 -0500
++++ libgnome-2.19.1/schemas/desktop_gnome_interface.schemas.in.in	2007-08-11 23:55:43.000000000 -0400
+@@ -130,7 +130,7 @@
+       <applyto>/desktop/gnome/interface/icon_theme</applyto>
+       <owner>gnome</owner>
+       <type>string</type>
+-      <default>gnome</default>
++      <default>System</default>
+       <locale name="C">
+         <short>Icon Theme</short>
+         <long>Icon theme to use for the panel, nautilus etc.</long>
+@@ -265,7 +265,7 @@
+       <applyto>/desktop/gnome/interface/show_input_method_menu</applyto>
+       <owner>gnome</owner>
+       <type>bool</type>
+-      <default>true</default>
++      <default>false</default>
+       <locale name="C">
+ 	<short>Show the 'Input Methods' menu</short>
+ 	<long>Whether the context menus of entries and text views 
+@@ -277,7 +277,7 @@
+       <applyto>/desktop/gnome/interface/show_unicode_menu</applyto>
+       <owner>gnome</owner>
+       <type>bool</type>
+-      <default>true</default>
++      <default>false</default>
+       <locale name="C">
+ 	<short>Show the 'Unicode Control Character' menu</short>
+ 	<long>Whether the context menus of entries and text views 

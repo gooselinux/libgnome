@@ -1,0 +1,11 @@
+--- libgnome-2.22.0/schemas/desktop_gnome_sound.schemas.in.old	2008-03-26 11:40:28.000000000 +0000
++++ libgnome-2.22.0/schemas/desktop_gnome_sound.schemas.in	2008-03-26 11:40:33.000000000 +0000
+@@ -40,7 +40,7 @@
+       <applyto>/desktop/gnome/sound/event_sounds</applyto>
+       <owner>gnome</owner>
+       <type>bool</type>
+-      <default>false</default>
++      <default>true</default>
+       <locale name="C">
+         <short>Sounds for events</short>
+         <long>Whether to play sounds on user events.</long>

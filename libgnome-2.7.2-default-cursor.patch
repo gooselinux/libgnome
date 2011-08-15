@@ -1,0 +1,19 @@
+--- libgnome-2.7.2/schemas/desktop_gnome_peripherals_mouse.schemas.in.default-cursor	2004-08-11 13:41:08.255401604 +0200
++++ libgnome-2.7.2/schemas/desktop_gnome_peripherals_mouse.schemas.in	2004-08-11 13:41:47.042682149 +0200
+@@ -100,6 +100,7 @@
+     <schema>
+       <key>/schemas/desktop/gnome/peripherals/mouse/cursor_theme</key>
+       <applyto>/desktop/gnome/peripherals/mouse/cursor_theme</applyto>
++      <default>dmz-aa</default>
+       <owner>gnome</owner>
+       <type>string</type>
+       <locale name="C">
+@@ -118,7 +119,7 @@
+       <applyto>/desktop/gnome/peripherals/mouse/cursor_size</applyto>
+       <owner>gnome</owner>
+       <type>int</type>
+-      <default>18</default>
++      <default>24</default>
+       <locale name="C">
+ 	<short>Cursor size</short>
+ 	<long>

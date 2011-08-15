@@ -1,0 +1,13 @@
+diff -ur libgnome-2.24.1/schemas/desktop_gnome_interface.schemas.in.in libgnome-2.24.1.hack/schemas/desktop_gnome_interface.schemas.in.in
+--- libgnome-2.24.1/schemas/desktop_gnome_interface.schemas.in.in	2009-02-03 10:34:18.000000000 -0800
++++ libgnome-2.24.1.hack/schemas/desktop_gnome_interface.schemas.in.in	2009-02-03 10:36:13.000000000 -0800
+@@ -110,7 +110,7 @@
+       <applyto>/desktop/gnome/interface/cursor_blink</applyto>
+       <owner>gnome</owner>
+       <type>bool</type>
+-      <default>true</default>
++      <default>false</default>
+       <locale name="C">
+ 	<short>Cursor Blink</short>
+ 	<long>Whether the cursor should blink.</long>
+Only in libgnome-2.24.1.hack/schemas: desktop_gnome_interface.schemas.in.in~

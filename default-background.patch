@@ -1,0 +1,48 @@
+diff -up libgnome-2.20.0/schemas/desktop_gnome_background.schemas.in.default-background libgnome-2.20.0/schemas/desktop_gnome_background.schemas.in
+--- libgnome-2.20.0/schemas/desktop_gnome_background.schemas.in.in.default-background	2007-09-17 08:25:50.000000000 -0400
++++ libgnome-2.20.0/schemas/desktop_gnome_background.schemas.in.in	2007-09-17 14:04:41.000000000 -0400
+@@ -16,7 +16,7 @@
+         <applyto>/desktop/gnome/background/picture_options</applyto>
+         <owner>gnome</owner>
+         <type>string</type>
+-        <default>zoom</default>
++        <default>stretched</default>
+         <locale name="C">
+         <short>Picture Options</short>
+         <long>Determines how the image set by wallpaper_filename is
+@@ -29,7 +29,7 @@
+         <applyto>/desktop/gnome/background/picture_filename</applyto>
+         <owner>gnome</owner>
+         <type>string</type>
+-	<default>@datadir@/pixmaps/backgrounds/gnome/background-default.jpg</default>
++	<default>@datadir@/backgrounds/default.xml</default>
+         <locale name="C">
+         <short>Picture Filename</short>
+         <long>File to use for the background image</long>
+@@ -51,7 +51,7 @@
+         <applyto>/desktop/gnome/background/primary_color</applyto>
+         <owner>gnome</owner>
+         <type>string</type>
+-        <default>#66ba00</default>
++        <default>#224B68</default>
+         <locale name="C">
+         <short>Primary Color</short>
+         <long>Left or Top color when drawing gradients, or the solid color.</long>
+@@ -62,7 +62,7 @@
+         <applyto>/desktop/gnome/background/secondary_color</applyto>
+         <owner>gnome</owner>
+         <type>string</type>
+-        <default>#66ba00</default>
++        <default>#142C3D</default>
+         <locale name="C">
+         <short>Secondary Color</short>
+         <long>Right or Bottom color when drawing gradients, not used for solid color.</long>
+@@ -73,7 +73,7 @@
+         <applyto>/desktop/gnome/background/color_shading_type</applyto>
+         <owner>gnome</owner>
+         <type>string</type>
+-        <default>solid</default>
++        <default>vertical-gradient</default>
+         <locale name="C">
+         <short>Color Shading Type</short>
+         <long>How to shade the background color. Possible values are "horizontal-gradient", "vertical-gradient", and "solid"</long>

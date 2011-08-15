@@ -1,0 +1,11 @@
+--- libgnome-2.28.0/schemas/desktop_gnome_interface.schemas.in.in.default-theme	2010-07-14 10:19:52.702594592 -0400
++++ libgnome-2.28.0/schemas/desktop_gnome_interface.schemas.in.in	2010-07-14 10:23:15.911603911 -0400
+@@ -154,7 +154,7 @@
+       <applyto>/desktop/gnome/interface/gtk_theme</applyto>
+       <owner>gnome</owner>
+       <type>string</type>
+-      <default>Clearlooks</default>
++      <default>Slider</default>
+       <locale name="C">
+ 	<short>Gtk+ Theme</short>
+ 	<long>Basename of the default theme used by gtk+.</long>

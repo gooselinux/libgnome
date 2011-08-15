@@ -1,0 +1,15 @@
+--- libgnome-2.11.1/libgnome/gnome-score.c.scoreloc	2005-03-28 10:45:07.000000000 -0500
++++ libgnome-2.11.1/libgnome/gnome-score.c	2005-07-11 11:56:34.233156000 -0400
+@@ -91,10 +91,12 @@
+ {
+    if (level)
+      return g_strconcat (LIBGNOME_LOCALSTATEDIR,
++			 G_DIR_SEPARATOR_S "lib"
+ 			 G_DIR_SEPARATOR_S "games" G_DIR_SEPARATOR_S,
+ 			 progname, ".", level, ".scores", NULL);
+    else
+      return g_strconcat (LIBGNOME_LOCALSTATEDIR,
++			 G_DIR_SEPARATOR_S "lib"
+ 			 G_DIR_SEPARATOR_S "games" G_DIR_SEPARATOR_S,
+ 			 progname, ".scores", NULL);
+ }

@@ -1,0 +1,11 @@
+--- libgnome-2.8.0/schemas/desktop_gnome_applications_browser.schemas.in.default-browser	2004-10-18 14:45:49.060808464 -0400
++++ libgnome-2.8.0/schemas/desktop_gnome_applications_browser.schemas.in	2004-10-18 14:46:08.920076823 -0400
+@@ -6,7 +6,7 @@
+       <applyto>/desktop/gnome/applications/browser/exec</applyto>
+       <owner>gnome</owner>
+       <type>string</type>
+-      <default>mozilla</default>
++      <default>firefox</default>
+       <locale name="C">
+         <short>Default browser</short>
+         <long>Default browser for all URLs</long>

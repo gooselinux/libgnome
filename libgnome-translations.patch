@@ -1,0 +1,273 @@
+diff -urN a/po/gu.po b/po/gu.po
+--- a/po/gu.po	2010-05-06 15:20:49.148029888 +0530
++++ b/po/gu.po	2010-05-06 15:20:59.751058287 +0530
+@@ -1,21 +1,21 @@
+ # translation of gu.po to Gujarati
+ # Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
+-# Ankit Patel <ankit@redhat.com>, 2006, 2007, 2008.
++# Ankit Patel <ankit@redhat.com>, 2006, 2007, 2008, 2010.
+ # Sweta Kothari <swkothar@redhat.com>, 2009.
+-# Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
++# Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gu\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2008-11-07 14:29+0100\n"
+-"PO-Revision-Date: 2009-07-15 07:01-0400\n"
+-"Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
+-"Language-Team: Gujarati\n"
++"POT-Creation-Date: 2010-03-29 14:24+0530\n"
++"PO-Revision-Date: 2010-05-06 15:18+0530\n"
++"Last-Translator: Ankit Patel <ankit@redhat.com>\n"
++"Language-Team: Gujarati <fedora-trans-gu@redhat.com>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "X-Generator: KBabel 1.11.4\n"
+-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
++"Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
+ "\n"
+ "\n"
+ "\n"
+@@ -36,7 +36,7 @@
+ 
+ #: ../gnome-data/gnome-2.soundlist.in.h:3
+ msgid "Log in"
+-msgstr "પ્રવેશ પ્રક્રિયા"
++msgstr "પ્રવેશ કરો"
+ 
+ #: ../gnome-data/gnome-2.soundlist.in.h:4
+ msgid "Log out"
+@@ -60,7 +60,7 @@
+ 
+ #: ../gnome-data/gnome-default.xml.in.in.h:1
+ msgid "Default Background"
+-msgstr "મૂળભૂત પાશ્વ ભાગ"
++msgstr "મૂળભૂત પાશ્વભાગ"
+ 
+ #: ../gnome-data/gtk-events-2.soundlist.in.h:1
+ msgid "Choose menu item"
+@@ -68,7 +68,7 @@
+ 
+ #: ../gnome-data/gtk-events-2.soundlist.in.h:2
+ msgid "Click on command button"
+-msgstr "આદેશ બટન પર ક્લીક કરો"
++msgstr "આદેશ બટન પર ક્લિક કરો"
+ 
+ #: ../gnome-data/gtk-events-2.soundlist.in.h:3
+ msgid "Select check box"
+@@ -76,12 +76,12 @@
+ 
+ #: ../gnome-data/gtk-events-2.soundlist.in.h:4
+ msgid "User interface events"
+-msgstr "વપરાશકર્તા ઘટના ઇન્ટરફેસ"
++msgstr "વપરાશકર્તા ઇન્ટરફેસ ઘટનાઓ"
+ 
+ # libgnome/gnome-exec.c:428
+ #: ../libgnome/gnome-exec.c:450
+ msgid "Cannot find a terminal, using xterm, even if it may not work"
+-msgstr "xterm વાપરીને ટર્મિનલ શોધી શકાતું નથી પછી ભલે ને તે કામ ન આપે"
++msgstr "ટર્મિનલ શોધી શકતા નથી, xterm વાપરી રહ્યા છીએ, જો તે કામ નહિં કરે તો પણ"
+ 
+ # libgnome/gnome-gconf.c:174
+ #: ../libgnome/gnome-gconf.c:175
+@@ -98,7 +98,7 @@
+ #: ../libgnome/gnome-help.c:180
+ #, c-format
+ msgid "Unable to find the GNOME_FILE_DOMAIN_HELP domain."
+-msgstr "GNOME_FILE_DOMAIN_APP_HELP ડોમેઇન શોધવા સક્ષમ નથી."
++msgstr "GNOME_FILE_DOMAIN_HELP ડોમેઇન શોધવા સક્ષમ નથી."
+ 
+ # libgnome/gnome-help.c:175
+ #: ../libgnome/gnome-help.c:193 ../libgnome/gnome-help.c:208
+@@ -135,25 +135,25 @@
+ msgstr "મદદ દસ્તાવેજ %s/%s મળતો નથી"
+ 
+ #. FIXME: get this from bonobo
+-#: ../libgnome/gnome-init.c:91
++#: ../libgnome/gnome-init.c:90
+ msgid "Bonobo Support"
+ msgstr "બોનોબો આધાર"
+ 
+-#: ../libgnome/gnome-init.c:145
++#: ../libgnome/gnome-init.c:144
+ msgid "Bonobo activation Support"
+ msgstr "બોનોબો કાર્યરત આધાર"
+ 
+-#: ../libgnome/gnome-init.c:381 ../libgnome/gnome-init.c:395
++#: ../libgnome/gnome-init.c:380 ../libgnome/gnome-init.c:394
+ #, c-format
+ msgid "Could not create per-user gnome configuration directory `%s': %s\n"
+ msgstr "દરેક વપરાશકર્તા માટે જીનોમ રૂપરેખા ડિરેક્ટરી '%s' બનાવી શકાતી નથી:%s\n"
+ 
+-#: ../libgnome/gnome-init.c:403
++#: ../libgnome/gnome-init.c:402
+ #, c-format
+ msgid "Could not stat private per-user gnome configuration directory `%s': %s\n"
+ msgstr "અંગત વપરાશકર્તા-પ્રતિ જીનોમ રૂપરેખાંકન ડિરેક્ટરી '%s' કહી શક્યા નહિં: %s\n"
+ 
+-#: ../libgnome/gnome-init.c:411
++#: ../libgnome/gnome-init.c:410
+ #, c-format
+ msgid ""
+ "Could not set mode 0700 on private per-user gnome configuration directory `%"
+@@ -163,42 +163,42 @@
+ "શકાતી નથી: %s\n"
+ 
+ # libgnome/gnome-init.c:305
+-#: ../libgnome/gnome-init.c:418
++#: ../libgnome/gnome-init.c:417
+ #, c-format
+ msgid "Could not create gnome accelerators directory `%s': %s\n"
+ msgstr "જીનોમ પ્રવેગ ડિરેક્ટરી '%s' બનાવી શકતી નથી: %s\n"
+ 
+ # libgnome/gnome-init.c:383
+-#: ../libgnome/gnome-init.c:457
++#: ../libgnome/gnome-init.c:456
+ msgid "GNOME Virtual Filesystem"
+ msgstr "જીનોમ આભાસી ફાઇલ સિસ્ટમ"
+ 
+ # libgnome/gnome-init.c:357
+-#: ../libgnome/gnome-init.c:475 ../libgnome/gnome-init.c:518
++#: ../libgnome/gnome-init.c:474 ../libgnome/gnome-init.c:517
+ msgid "Disable sound server usage"
+ msgstr "ધ્વની સર્વર ઉપયોગ અકાર્યરત કરો"
+ 
+ # libgnome/gnome-init.c:360
+-#: ../libgnome/gnome-init.c:478 ../libgnome/gnome-init.c:521
++#: ../libgnome/gnome-init.c:477 ../libgnome/gnome-init.c:520
+ msgid "Enable sound server usage"
+ msgstr "ધ્વની સર્વર ઉપયોગ કાર્યરત કરો"
+ 
+ # libgnome/gnome-init.c:363
+-#: ../libgnome/gnome-init.c:482 ../libgnome/gnome-init.c:524
++#: ../libgnome/gnome-init.c:481 ../libgnome/gnome-init.c:523
+ msgid "Host:port on which the sound server to use is running"
+ msgstr "યજમાન:પોર્ટ કે જેના ઉપર ધ્વનિ સર્વર વાપરવાનું છે"
+ 
+ # libgnome/gnome-init.c:365
+-#: ../libgnome/gnome-init.c:483 ../libgnome/gnome-init.c:526
++#: ../libgnome/gnome-init.c:482 ../libgnome/gnome-init.c:525
+ msgid "HOSTNAME:PORT"
+ msgstr "યજમાન:પોર્ટ"
+ 
+ # libgnome/gnome-init.c:404
+-#: ../libgnome/gnome-init.c:492 ../libgnome/gnome-init.c:536
++#: ../libgnome/gnome-init.c:491 ../libgnome/gnome-init.c:535
+ msgid "GNOME Library"
+ msgstr "જીનોમ લાઇબ્રેરી"
+ 
+-#: ../libgnome/gnome-init.c:493
++#: ../libgnome/gnome-init.c:492
+ msgid "Show GNOME options"
+ msgstr "જીનોમ વિકલ્પો બતાવો"
+ 
+@@ -230,7 +230,7 @@
+ # libgnome/gnome-program.c:444
+ #: ../libgnome/gnome-program.c:475
+ msgid "The popt context pointer that GnomeProgram is using"
+-msgstr "જીનોમ પ્રોગ્રામ દ્વારા વપનારાર popt વિષયસુચી સૂચક"
++msgstr "popt સંદર્ભ નિર્દેશક કે જે GnomeProgram વાપરી રહ્યું છે"
+ 
+ # libgnome/gnome-program.c:443
+ #: ../libgnome/gnome-program.c:483
+@@ -270,7 +270,7 @@
+ # libgnome/gnome-program.c:473
+ #: ../libgnome/gnome-program.c:513
+ msgid "ID string to use for this application"
+-msgstr "આ કાર્યક્રમ માટે ઉપયોગમાં આવનાર આઇડી વાક્ય"
++msgstr "આ કાર્યક્રમ માટે વાપરવાનું ID વાક્ય"
+ 
+ # libgnome/gnome-program.c:480
+ #: ../libgnome/gnome-program.c:520
+@@ -285,12 +285,12 @@
+ # libgnome/gnome-program.c:488
+ #: ../libgnome/gnome-program.c:528
+ msgid "GNOME Prefix"
+-msgstr "જીનોમ પૂવર્ગ"
++msgstr "જીનોમ પૂર્વગ"
+ 
+ # libgnome/gnome-program.c:489
+ #: ../libgnome/gnome-program.c:529
+ msgid "Prefix where GNOME was installed"
+-msgstr "પૂવર્ગ જ્યાં જીનોમ સ્થાપિત હતું"
++msgstr "પૂર્વગ જ્યાં જીનોમ સ્થાપિત હતું"
+ 
+ # libgnome/gnome-program.c:498
+ #: ../libgnome/gnome-program.c:538
+@@ -300,7 +300,7 @@
+ # libgnome/gnome-program.c:499
+ #: ../libgnome/gnome-program.c:539
+ msgid "Library prefix where GNOME was installed"
+-msgstr "લાઇબ્રેરી પૂવર્ગ જ્યાં જીનોમ સ્થાપિત હતું"
++msgstr "લાઇબ્રેરી પૂર્વગ જ્યાં જીનોમ સ્થાપિત હતું"
+ 
+ # libgnome/gnome-program.c:508
+ #: ../libgnome/gnome-program.c:548
+@@ -310,7 +310,7 @@
+ # libgnome/gnome-program.c:509
+ #: ../libgnome/gnome-program.c:549
+ msgid "Data prefix where GNOME was installed"
+-msgstr "માહિતિ પૂવર્ગ જ્યાં જીનોમ સ્થાપિત હતું"
++msgstr "માહિતિ પૂર્વગ જ્યાં જીનોમ સ્થાપિત હતું"
+ 
+ # libgnome/gnome-program.c:518
+ #: ../libgnome/gnome-program.c:558
+@@ -320,17 +320,17 @@
+ # libgnome/gnome-program.c:519
+ #: ../libgnome/gnome-program.c:559
+ msgid "Configuration prefix where GNOME was installed"
+-msgstr "રૂપરેખા પૂવર્ગ જ્યાં જીનોમ સ્થાપિત હતું"
++msgstr "રૂપરેખા પૂર્વગ જ્યાં જીનોમ સ્થાપિત હતું"
+ 
+ # libgnome/gnome-program.c:529
+ #: ../libgnome/gnome-program.c:569
+ msgid "GNOME App Prefix"
+-msgstr "જીનોમ કાર્યક્રમ પૂવર્ગ"
++msgstr "જીનોમ કાર્યક્રમ પૂર્વગ"
+ 
+ # libgnome/gnome-program.c:530
+ #: ../libgnome/gnome-program.c:570
+ msgid "Prefix where this application was installed"
+-msgstr "પૂવર્ગ જ્યાં કાર્યક્રમ સ્થાપિત હતું"
++msgstr "પૂર્વગ જ્યાં કાર્યક્રમ સ્થાપિત હતું"
+ 
+ # libgnome/gnome-program.c:538
+ #: ../libgnome/gnome-program.c:578
+@@ -340,7 +340,7 @@
+ # libgnome/gnome-program.c:539
+ #: ../libgnome/gnome-program.c:579
+ msgid "Library prefix where this application was installed"
+-msgstr "લાઇબ્રેરી પૂવર્ગ જ્યાં આ કાર્યક્રમ સ્થાપિત હતુ"
++msgstr "લાઇબ્રેરી પૂર્વગ જ્યાં આ કાર્યક્રમ સ્થાપિત હતુ"
+ 
+ # libgnome/gnome-program.c:548
+ #: ../libgnome/gnome-program.c:588
+@@ -350,7 +350,7 @@
+ # libgnome/gnome-program.c:549
+ #: ../libgnome/gnome-program.c:589
+ msgid "Data prefix where this application was installed"
+-msgstr "માહિતિ પૂવર્ગ જ્યાં આ કાર્યક્રમ સ્થાપિત હતો"
++msgstr "માહિતિ પૂર્વગ જ્યાં આ કાર્યક્રમ સ્થાપિત હતો"
+ 
+ # libgnome/gnome-program.c:558
+ #: ../libgnome/gnome-program.c:598
+@@ -360,7 +360,7 @@
+ # libgnome/gnome-program.c:559
+ #: ../libgnome/gnome-program.c:599
+ msgid "Configuration prefix where this application was installed"
+-msgstr "રૂપરેખા પૂવર્ગ જ્યાં આ કાર્યક્રમ સ્થાપિત હતો"
++msgstr "રૂપરેખા પૂર્વગ જ્યાં આ કાર્યક્રમ સ્થાપિત હતો"
+ 
+ # libgnome/gnome-program.c:568
+ #: ../libgnome/gnome-program.c:608
+@@ -481,7 +481,7 @@
+ msgid "The login has failed."
+ msgstr "પ્રવેશ નિષ્ફળ ગયું છે."
+ 
+-#: ../libgnome/gnome-open.c:38
++#: ../libgnome/gnome-open.c:52
+ #, c-format
+ msgid "Error showing url: %s\n"
+ msgstr "url બતાવવમાં ભૂલ: %s\n"
